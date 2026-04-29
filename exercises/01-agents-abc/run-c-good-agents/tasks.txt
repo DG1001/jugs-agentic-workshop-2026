@@ -1,0 +1,4 @@
+1|Workshop-Slides finalisieren|true
+2|Captures fuer 4 Tools aufnehmen|false
+3|Beamer-Setup im Raum 1.311 testen|false
+4|JBang-Version pruefen|false
