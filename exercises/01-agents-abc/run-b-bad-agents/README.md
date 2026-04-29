@@ -21,6 +21,13 @@ Das ist absichtlich übertrieben. Die Wirkung soll sichtbar werden.
 > soll möglich sein, die Liste nach Priorität sortiert anzuzeigen
 > (höchste zuerst).
 
+In dieses Verzeichnis wechseln, OpenCode starten, Prompt eintippen:
+
+```bash
+cd run-b-bad-agents
+opencode
+```
+
 ## Was beobachten
 
 Die Folien sagen voraus: **Overexploration**. Konkret:

@@ -66,8 +66,9 @@ braucht:
 
 > Füge dem Notes-Tool einen `delete <id>`-Befehl hinzu.
 
-Lasst den Agent das mit eurer AGENTS.md machen. Bleibt er in der Spur?
-Macht er das Speicherformat kaputt? Aktualisiert er den Help-Text?
+Im OpenCode-TUI im `example-project/`-Verzeichnis testen. Bleibt
+der Agent in der Spur eurer AGENTS.md? Macht er das Speicherformat
+kaputt? Aktualisiert er den Help-Text?
 
 ## Peer-Review (für Schritt 3)
 

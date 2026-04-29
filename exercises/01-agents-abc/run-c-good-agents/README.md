@@ -20,6 +20,13 @@ Nur das, was der Agent für *diese* Aufgabe wirklich braucht.
 > soll möglich sein, die Liste nach Priorität sortiert anzuzeigen
 > (höchste zuerst).
 
+In dieses Verzeichnis wechseln, OpenCode starten, Prompt eintippen:
+
+```bash
+cd run-c-good-agents
+opencode
+```
+
 ## Was beobachten
 
 Die Folien sagen voraus: **+25 % Best-Practice-Score**. Konkret hier:

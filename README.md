@@ -4,9 +4,10 @@ Hands-on Workshop-Material zum **Agentic Coding** Workshop am
 **30. April 2026** an der Uni Stuttgart, organisiert von der
 [Java User Group Stuttgart](https://www.jugs.org/).
 
-Das Material besteht aus zwei Übungen rund um `AGENTS.md` und Coding
-Agents (Claude Code, Aider, Gemini CLI, OpenCode, Crush). Es funktioniert
-mit beliebigen Coding Agents — die Übungen sind tool-agnostisch.
+Das Material besteht aus zwei Übungen rund um `AGENTS.md` und
+Coding Agents. Wir arbeiten primär mit **OpenCode** im kostenlosen
+Modus (kein Login, eingebaute Free-Modelle). Wer einen eigenen
+**Mistral-API-Key** mitbringt, kann den optional nutzen.
 
 > **Format**: 30. April 2026 · 10:00–17:00 Uhr · Uni Stuttgart, Raum 1.311
 > **Anmeldung**: agentic@jugs.org (Subject: Coding Workshop Registration)
@@ -46,8 +47,9 @@ Wenn du am Workshop teilnimmst, bekommst du beim Eintreffen einen
 fertigen Browser-Workspace zugewiesen. Dieser Inhalt liegt schon drin.
 **Du musst nichts installieren.**
 
-Für die Authentifizierung der Coding Agents (Claude Code, Aider,
-Gemini CLI) sind die API-Keys voreingestellt.
+OpenCode ist vorinstalliert und läuft im **Free-Modus ohne Login** —
+keine API-Keys nötig. Wer einen eigenen Mistral-Codestral-API-Key
+mitbringt, kann den per `/connect` einbinden.
 
 ### Variante B — Lokales Setup
 
@@ -69,18 +71,30 @@ du:
   curl -Ls https://sh.jbang.dev | bash -s - app setup
   ```
 
-- **Mindestens einen Coding Agent**:
-  - **Claude Code**: `npm install -g @anthropic-ai/claude-code`
-    + `ANTHROPIC_API_KEY` setzen
-  - **Aider**: `pip install aider-chat` + `OPENAI_API_KEY` oder
-    `ANTHROPIC_API_KEY`
-  - **Gemini CLI**: siehe [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
-  - **OpenCode SST**: siehe [sst/opencode](https://github.com/sst/opencode)
-  - **Crush**: `npm install -g @charmbracelet/crush`
+- **OpenCode** als Coding Agent
+  ```bash
+  # Installation
+  curl -fsSL https://opencode.ai/install | bash
+
+  # Im Projekt-Verzeichnis starten — kein Login nötig
+  opencode
+  ```
+
+  Im OpenCode-TUI: `/models` öffnet die Modell-Auswahl. Ohne
+  konfigurierten API-Key bekommst du Zugriff auf die kostenlosen
+  Modelle (z.B. NVIDIA Nemotron Free, Big Pickle Free). Die reichen
+  für alle Workshop-Übungen aus.
+
+- **Optional: Mistral-API-Key** für mehr Power
+  Wer eine konsistentere Erfahrung will: einen kostenlosen
+  Codestral-API-Key holen unter
+  [console.mistral.ai](https://console.mistral.ai/codestral) →
+  „Generate API Key". Dann in OpenCode `/connect` → Mistral wählen
+  → Key einfügen.
 
 - **Repo klonen**
   ```bash
-  git clone https://github.com/dg1001/jugs-agentic-workshop-2026.git
+  git clone https://github.com/<owner>/jugs-agentic-workshop-2026.git
   cd jugs-agentic-workshop-2026
   ```
 
@@ -114,8 +128,8 @@ Wenn du die globale AGENTS.md im Workspace haben willst:
 cp WORKSPACE-AGENTS.md AGENTS.md
 ```
 
-Damit lesen Coding Agents (Claude Code, Aider, Gemini CLI) die
-Regeln automatisch mit.
+Damit liest OpenCode (und andere Coding Agents) die Regeln
+automatisch mit.
 
 > ⚠️ **Wichtig**: Wenn du im Repo arbeitest und gleichzeitig Übung 1
 > machen willst, lass `AGENTS.md` am Root *weg* (steht in `.gitignore`).

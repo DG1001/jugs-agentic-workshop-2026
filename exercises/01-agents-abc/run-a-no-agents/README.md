@@ -26,8 +26,19 @@ Gleicher Prompt wie in Run B und Run C:
 > soll möglich sein, die Liste nach Priorität sortiert anzuzeigen
 > (höchste zuerst).
 
-Tippt das in euren Coding Agent (Claude Code, Aider, Gemini CLI oder
-das Tool eurer Wahl) und schaut, was passiert.
+In dieses Verzeichnis wechseln und OpenCode starten:
+
+```bash
+cd run-a-no-agents
+opencode
+```
+
+Beim ersten Start mit `/models` ein freies Modell wählen
+(z.B. NVIDIA Nemotron Free oder Big Pickle Free), wenn ihr noch
+keinen Provider konfiguriert habt. Wer einen Mistral-Key hat,
+nutzt den.
+
+Dann den Prompt eintippen und schauen, was passiert.
 
 ## Was beobachten
 
@@ -37,8 +48,8 @@ Notiert kurz:
   int? eigenes File?)
 - **Default**: Was passiert mit existierenden Tasks ohne Priorität?
 - **Sortierung**: Standardmäßig sortiert oder neuer Befehl?
-- **Welche Files** hat der Agent gelesen? (bei Claude Code: in den
-  Tool-Calls sichtbar; bei Aider: in den Repo-Map-Outputs)
+- **Welche Files** hat der Agent gelesen? (im OpenCode-TUI in den
+  Tool-Calls sichtbar)
 - **Wie lange** hat es gedauert?
 
 Das ist die Baseline. Danach gleicher Prompt mit Run B (schlechter
