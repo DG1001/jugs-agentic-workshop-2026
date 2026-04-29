@@ -1,0 +1,39 @@
+# JBang / Java
+*.class
+target/
+.jbang/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI tool artifacts (sessions, caches, temp logs)
+.aider*
+.claude/
+.gemini/
+.opencode/
+.crush/
+
+# Workshop-spezifisch: Teilnehmer-Outputs sollen nicht versehentlich committed werden
+exercises/01-agents-abc/run-*/tasks.txt.bak
+exercises/02-write-your-own/example-project/notes.db
+
+# Mögliche AGENTS.md-Versuche aus Übung 2 (gehören in eigene Forks/Repos)
+exercises/02-write-your-own/AGENTS.md
+exercises/02-write-your-own/example-project/AGENTS.md
+
+# Repo-Root-AGENTS.md ist absichtlich nicht im Repo:
+# - Übung 1 (A/B/C) braucht eine "saubere" Baseline ohne globale AGENTS.md
+# - Im XaresAICoder-Workspace existiert die Standard-AGENTS.md schon
+# - Lokale User brauchen sie nicht (kein Container)
+# Wer trotzdem will, nimmt WORKSPACE-AGENTS.md als Vorlage und kopiert
+# sie sich lokal nach AGENTS.md
+/AGENTS.md
