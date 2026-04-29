@@ -80,7 +80,7 @@ du:
 
 - **Repo klonen**
   ```bash
-  git clone https://github.com/<owner>/jugs-agentic-workshop-2026.git
+  git clone https://github.com/dg1001/jugs-agentic-workshop-2026.git
   cd jugs-agentic-workshop-2026
   ```
 
