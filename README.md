@@ -117,23 +117,26 @@ XaresAICoder läuft im Container — Apps müssen auf `0.0.0.0` binden,
 nicht auf `localhost`, sonst sind sie über den Browser nicht
 erreichbar. Plus es gibt ein paar Konventionen für URLs, Git, etc.
 
-Im Standard-Workspace liegt dafür schon eine `AGENTS.md` am Root.
-**In diesem Repo ist sie absichtlich als `WORKSPACE-AGENTS.md`
-abgelegt** — damit Übung 1 (A/B/C-Test) eine saubere Baseline ohne
-globale AGENTS.md hat.
+Im Standard-Workspace liegt dafür normalerweise eine `AGENTS.md` am
+Root. **Im Workshop wurde sie aus `/workspace/` entfernt** — damit
+Übung 1 (A/B/C-Test) sauber funktioniert. Sonst würde OpenCode immer
+die `/workspace/AGENTS.md` mitlesen und die A/B/C-Vergleichbarkeit
+kaputt machen.
 
-Wenn du die globale AGENTS.md im Workspace haben willst:
+Im Repo-Root liegt sie als `WORKSPACE-AGENTS.md` zur Anschauung.
+Wenn du sie aktiv haben willst (für eine echte App in Übung 2 oder
+Bonus):
 
 ```bash
 cp WORKSPACE-AGENTS.md AGENTS.md
 ```
 
-Damit liest OpenCode (und andere Coding Agents) die Regeln
+Damit liest OpenCode (und andere Coding Agents) die Container-Regeln
 automatisch mit.
 
-> ⚠️ **Wichtig**: Wenn du im Repo arbeitest und gleichzeitig Übung 1
-> machen willst, lass `AGENTS.md` am Root *weg* (steht in `.gitignore`).
-> Sonst verfälscht sie den A/B/C-Vergleich.
+> ⚠️ **Wichtig**: Wenn du die `AGENTS.md` aktivierst und gleichzeitig
+> Übung 1 machen willst, sind die A/B/C-Vergleiche nicht mehr sauber.
+> Reihenfolge daher: erst Übung 1 fertig, dann ggf. AGENTS.md aktivieren.
 
 ---
 
