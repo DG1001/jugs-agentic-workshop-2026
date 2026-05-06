@@ -11,6 +11,7 @@ Modus (kein Login, eingebaute Free-Modelle). Wer einen eigenen
 
 > **Format**: 30. April 2026 · 10:00–17:00 Uhr · Uni Stuttgart, Raum 1.311
 > **Anmeldung**: agentic@jugs.org (Subject: Coding Workshop Registration)
+> **Foliensatz**: [agentic-coding-workshop-2026.pdf](agentic-coding-workshop-2026.pdf) — AGENTS.md-Theorie, Deep Dive Token-Ökonomie, Live-Captures (28 Folien)
 
 ---
 
@@ -32,6 +33,9 @@ exercises/
 WORKSPACE-AGENTS.md           Referenz-AGENTS.md für XaresAICoder-Workspaces
                               (Bind 0.0.0.0 etc.) — nicht als AGENTS.md, damit
                               Übung 1 sauber bleibt
+
+agentic-coding-workshop-2026.pdf
+                              Foliensatz vom Workshop-Tag (28 Folien)
 ```
 
 Jeder Übungsordner hat eine eigene `README.md` mit Aufgabe, Prompt
