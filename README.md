@@ -177,6 +177,15 @@ Der Deep-Dive-Teil zeigt am `mitmproxy`-API-Logger des
 Coding Agent und LLM tatsächlich an Tokens fließt — und warum
 manche Tools 10× geschwätziger sind als andere.
 
+## Weiterführend
+
+- **[gpu-summon](https://github.com/DG1001/gpu-summon)** — im Workshop
+  live vorgeführt: ein Command, der auf einer gemieteten Cloud-GPU
+  (~0,30–0,40 $/h) einen self-hosted `llama.cpp`-Endpoint hochzieht und
+  in den Editor verdrahtet. Self-hosted Inferenz ohne Daten-Abfluss zu
+  Cloud-Anbietern. Eigener 16-Folien-Foliensatz *„Lokale LLMs auf
+  gemieteten GPUs"* (JUG Stuttgart 2026) liegt im Repo.
+
 ## Quellen & Dank
 
 - **Augment Code**: AGENTS.md-Patterns aus AuggieBench-Studie
