@@ -189,11 +189,27 @@ manche Tools 10× geschwätziger sind als andere.
 ## Quellen & Dank
 
 - **Augment Code**: AGENTS.md-Patterns aus AuggieBench-Studie
-- **iteratec GmbH** (David Schowalter): Vortrag *„Agentic Coding im
-  Team"* am 29.04. (Vortragsabend) — siehe
-  [JUG-Webseite](https://www.jugs.org/)
-- **AWS** (Arnaud Jean): Spring AI RPG Workshop am 30.04. Nachmittag
-- **Java User Group Stuttgart**: Organisation und Räumlichkeiten
+
+**Vortragsabend 29.04.2026**
+
+- **DNA Gruppe** (Oliver Eichler): *„KI im Maschinenraum: Kubernetes,
+  Terraform und AWS mit AI-Assistenz"*
+- **iteratec GmbH** (David Schowalter): *„Agentic Coding im Team —
+  Erfahrungen aus dem Projektalltag"*
+- **IBM** (Juan Mejía Schuster): *„Lessons Learned from Building
+  Tool-Orchestrated LLM Agents for Root Cause Analysis of Large-Scale
+  Logs"*
+
+**Workshop 30.04.2026**
+
+- **AWS** (Arnaud Jean, Co-Facilitator: Salih Güler): *„Create Your Own
+  Role-Playing Game with Agentic AI using Java + Spring AI"*
+
+**Organisation**
+
+- **Java User Group Stuttgart**: Organisation und Räumlichkeiten —
+  vollständige Agenda auf der
+  [JUGS-Veranstaltungsseite](https://www.jugs.org/veranstaltungen/agentic-coding/)
 
 ## Lizenz
 
